@@ -1,19 +1,21 @@
+/* this is for all of the code */
 body {
     margin: 0;
     font-family: 'Times New Roman', sans-serif;
-    background-color: #fff;
+    background-color: #e0e0e0;
     color: #000;
 }
 
+/* this is for the header */
 h1 {
     text-align: center;
 }
 
+/* this is styling for navigation bar */
 .navbar {
-    background-color: #fff;
+    background-color: #e0e0e0;
     padding: 1rem 0;
 }
-
 .navbar-menu {
     list-style: none;
     text-align: center;
@@ -29,12 +31,38 @@ h1 {
 .navbar-menu a {
     text-decoration: none;
     color: #000;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
+    font-size: 1rem;
 }
 .navbar-menu a:hover {
     color: gold;
 }
+
+/* this is styling for the banner image */
 .banner-image {
     width: 100%;
+}
+
+/* this all is stying for the footer */
+.footer {
+    background-color: #909090;
+    padding: 2rem 0;
+    text-align: center;
+}
+.footer-content p {
+    color: black;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+.social-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+.social-links a {
+    color: black;
+    text-decoration: none;
+}
+.social-links a:hover {
+    color: gold;
 }
