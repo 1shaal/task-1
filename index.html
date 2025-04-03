@@ -11,23 +11,51 @@
     <header>
         <h1>Ishaalé</h1>
     </header>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <div class="navbar">
+        <div class="navbar-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
         <ul class="navbar-menu">
-            <li><a href="haute-couture.asp">HAUTE COUTURE</a></li>
-            <li><a href="fashion.asp">FASHION</a></li>
-            <li><a href="high-jewelry.asp">HIGH JEWELRY</a></li>
-            <li><a href="fine-jewelry.asp">FINE JEWELRY</a></li>
-            <li><a href="watches.asp">WATCHES</a></li>
-            <li><a href="eyewear.asp">EYEWEAR</a></li>
-            <li><a href="fragrance.asp">FRAGRANCE</a></li>
-            <li><a href="makeup.asp">MAKEUP</a></li>
-            <li><a href="skincare.asp">SKINCARE</a></li>
-            <li><a href="about-ishaalé.asp">ABOUT ISHAALÉ</a></li>
+            <li><a href="haute-couture.asp"><i class="fas fa-crown"></i> HAUTE COUTURE</a></li>
+            <li><a href="fashion.asp"><i class="fas fa-tshirt"></i> FASHION</a></li>
+            <li><a href="high-jewelry.asp"><i class="fas fa-gem"></i> HIGH JEWELRY</a></li>
+            <li><a href="fine-jewelry.asp"><i class="fas fa-ring"></i> FINE JEWELRY</a></li>
+            <li><a href="watches.asp"><i class="fas fa-clock"></i> WATCHES</a></li>
+            <li><a href="eyewear.asp"><i class="fas fa-glasses"></i> EYEWEAR</a></li>
+            <li><a href="fragrance.asp"><i class="fas fa-spray-can"></i> FRAGRANCE</a></li>
+            <li><a href="makeup.asp"><i class="fas fa-paint-brush"></i> MAKEUP</a></li>
+            <li><a href="skincare.asp"><i class="fas fa-spa"></i> SKINCARE</a></li>
+            <li><a href="about-ishaalé.asp"><i class="fas fa-info-circle"></i> ABOUT ISHAALÉ</a></li>
         </ul>
-    </div>
+    </div> 
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar-menu');
+            menu.classList.toggle('active');
+        }
+    </script>    
 
     <div class="hero-banner">
         <img src="assets/css/images/banner.png" alt="Banner Image" class="banner-image">
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-subtitle">Our Story</div>
+                <div class="card-text">Discover the legacy behind Ishaalé, where elegance meets craftsmanship and timeless beauty.</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-subtitle">Our Commitment</div>
+                <div class="card-text">Experience the allure of sophistication with our exclusive collections crafted to perfection.</div>
+            </div>
+        </div>
     </div>
 
     <footer class="footer">
@@ -42,5 +70,6 @@
             </ul>
         </div>
     </footer>
+
 </body>
 </html>
