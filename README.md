@@ -1,2 +1,2 @@
 # task-1
-Tell me about your website here.
+This is my fashion website. It covers clothing and jewelry!
